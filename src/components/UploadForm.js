@@ -30,7 +30,7 @@ const UploadForm = () => {
             setResponse(null);
 
             // Post the image file to the backend
-            const res = await axios.post('http://localhost:5000/upload-report', formData, {
+            const res = await axios.post('https://med-report-alnyser-back.onrender.com/upload-report', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
