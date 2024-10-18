@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.upload-form {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.analysis-result {
+  margin-top: 30px;
+  text-align: left;
+}
